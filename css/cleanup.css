@@ -1,1 +1,21 @@
 /* write your override styles here */
+div#wall div#tag-2{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 980px;
+  height: 622px;
+  background: url(../images/tag-2.png) no-repeat;
+  z-index: 6;
+  display: block;
+}
+div#wall div.parent #tag-4.slick{
+    background: url(../images/tag-4.png) no-repeat;
+  z-index: 4;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980px;
+  height: 622px;
+}
